@@ -11,4 +11,4 @@
 
     1 - Executar a garipagem de dados
 
-        npm run start
+        npm run start ou yarn start
