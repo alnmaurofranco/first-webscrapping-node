@@ -1,0 +1,21 @@
+{
+  "name": "node-webscrapping-instagram",
+  "version": "1.0.0",
+  "description": "Webscrapping",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^5.2.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "npm-run-all": "^4.1.5"
+  },
+  "scripts": {
+    "scrapping": "node index.js",
+    "dev": "lite-server",
+    "start": "npm-run-all scrapping dev"
+  },
+  "keywords": [],
+  "author": "alanmaurofranco",
+  "license": "ISC"
+}
